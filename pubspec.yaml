@@ -1,0 +1,31 @@
+name: signature23
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.3.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.0
+
+  # display signature
+  syncfusion_flutter_signaturepad: ^20.1.50
+  signature: ^5.0.0
+
+  # save signature
+  permission_handler: ^9.2.0
+  image_gallery_saver: ^1.7.1
+
+  # show snackbar
+  flushbar: ^1.10.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
